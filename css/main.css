@@ -65,6 +65,19 @@ h6 {
   font-weight: 400;
 }
 
+.imagebox {
+  width: 50%;
+  float: left;
+}
+
+.textbox {
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #666;
+  color: #fff;
+}
 /*------------------Utilities---------------------*/
 a {
   color: inherit;
