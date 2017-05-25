@@ -41,6 +41,14 @@ var ml_account = ml('accounts', '799137', 't2n1u4z1f0', 'load');
 
 <body>
 
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="navbar navbar-inverse navbar-fixed-top text-center">
       <div class="container">
@@ -164,6 +172,7 @@ var ml_account = ml('accounts', '799137', 't2n1u4z1f0', 'load');
           </div> -->
 
           <div class="col-sm-4 text-right">
+            <div class="fb-like" data-href="https://facebook.com/ochtbag" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
             <h5><small>Copyright &copy; 2017. All rights reserved by OCHT. <br></h5>
           </div>
     </footer>
